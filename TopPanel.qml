@@ -224,10 +224,4 @@ RowLayout {
 
     }
 
-    Component.onCompleted:
-    {
-
-
-    }
-
 }
