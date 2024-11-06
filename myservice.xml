@@ -1,0 +1,54 @@
+<node>
+    <interface name="experion.server.dbus">
+        <method name="setIsOilCanWarning">
+            <arg type="b" name="newIsOilCanWarning" direction="in"/>
+        </method>
+        <method name="setIsCarBatteryWarning">
+            <arg type="b" name="newIsCarBatteryWarning" direction="in"/>
+        </method>        
+        <method name="setIsCarChildSeatWarning">
+            <arg type="b" name="newIsCarChildSeatWarning" direction="in"/>
+        </method>
+        <method name="setIsCarTractionControlWarning">
+            <arg type="b" name="newIsCarTractionControlWarning" direction="in"/>
+        </method>
+        <method name="setIsSeatBeltWarning">
+            <arg type="b" name="newIsSeatBeltWarning" direction="in"/>
+        </method>
+        <method name="setIsCarPressureWarning">
+            <arg type="b" name="newIsCarPressureWarning" direction="in"/>
+        </method>
+        <method name="setIsHighBeamOn">
+            <arg type="b" name="newIsHighBeamOn" direction="in"/>
+        </method>
+        <method name="setIsAbsOn">
+            <arg type="b" name="newIsAbsOn" direction="in"/>
+        </method>
+        <method name="setIsCarBrakeParkingOn">
+            <arg type="b" name="newIsCarBrakeParkingOn" direction="in"/>
+        </method>
+        <method name="setIsRightIndicatorOn">
+            <arg type="b" name="newIsRightIndicatorOn" direction="in"/>
+        </method>
+        <method name="setIsLeftIndicatorOn">
+            <arg type="b" name="newIsLeftIndicatorOn" direction="in"/>
+        </method>
+        <method name="setDriveMode">
+            <arg type="i" name="newDriveMode" direction="in"/>
+        </method>
+        <method name="setSpeedStartingAndEndingRange">
+            <arg type="i" name="speedStartingRange" direction="in"/>
+            <arg type="i" name="speedEndingRange" direction="in"/>
+        </method>
+        <method name="setRpmStartingAndEndingRange">
+            <arg type="i" name="rpmStartingRange" direction="in"/>
+            <arg type="i" name="rpmEndingRange" direction="in"/>
+        </method>
+        <method name="setFuelRange">
+            <arg type="i" name="fuelRange" direction="in"/>
+        </method>
+        <method name="setEngineTemperatureRange">
+            <arg type="i" name="tempRange" direction="in"/>
+        </method>
+    </interface>
+</node>

@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>BottomPanel.qml</file>
+        <file>DrivingModeAndIndicator.qml</file>
+        <file>Navigator.qml</file>
+        <file>RpmMeter.qml</file>
+        <file>SpeedoMeter.qml</file>
+        <file>TopPanel.qml</file>
+        <file>images/bottom/bottomrectangle.svg</file>
+        <file>images/driving-mode/D.svg</file>
+        <file>images/driving-mode/P.svg</file>
+        <file>images/driving-mode/R.svg</file>
+        <file>images/head/icons/off/high-beam-2 1.svg</file>
+        <file>images/head/icons/off/la_oil-can.svg</file>
+        <file>images/head/icons/off/mdi_car-battery.svg</file>
+        <file>images/head/icons/off/mdi_car-brake-parking-1.svg</file>
+        <file>images/head/icons/off/mdi_car-brake-parking.svg</file>
+        <file>images/head/icons/off/mdi_car-child-seat.svg</file>
+        <file>images/head/icons/off/mdi_car-tire-alert.svg</file>
+        <file>images/head/icons/off/mdi_car-traction-control.svg</file>
+        <file>images/head/icons/off/mdi_seatbelt.svg</file>
+        <file>images/head/icons/on/high-beam-2 1.png</file>
+        <file>images/head/topRectangle.svg</file>
+        <file>images/indicator/arrow-left.svg</file>
+        <file>images/indicator/arrow-right.svg</file>
+        <file>images/navigation/car.png</file>
+        <file>images/navigation/Union.svg</file>
+        <file>images/navigation/UnionCenter.svg</file>
+        <file>images/navigation/UnionRed.svg</file>
+        <file>images/rpmmeter/rpmMeter.svg</file>
+        <file>images/rpmmeter/rpmNeedle.svg</file>
+        <file>images/rpmmeter/rpmNeedleCircle.svg</file>
+        <file>images/rpmmeter/rpmNeedleCircleRed.svg</file>
+        <file>images/rpmmeter/rpmNeedleCircleWhite.svg</file>
+        <file>images/rpmmeter/temp-icon.svg</file>
+        <file>images/speedometer/fuel-icon.svg</file>
+        <file>images/speedometer/fuel.svg</file>
+        <file>images/speedometer/speedoMeter.svg</file>
+        <file>images/speedometer/speedoNeedle.svg</file>
+        <file>images/speedometer/speedoNeedleCircle.svg</file>
+        <file>images/speedometer/speedoNeedleCircleRed.svg</file>
+        <file>images/speedometer/speedoNeedleCircleWhite.svg</file>
+        <file>myservice.xml</file>
+        <file>BlinkController.qml</file>
+    </qresource>
+</RCC>
