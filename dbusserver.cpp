@@ -278,11 +278,13 @@ int DBusServer::speed() const
 
 void DBusServer::setSpeed(int newSpeed)
 {
-    setStartingSpeed(speed());
-    qDebug() << "new Speed is :" << newSpeed;
-    if (m_speed == newSpeed)
-        return;
+    setStartingSpeed(m_speed);
+    // if (m_speed == newSpeed){
+    //     qDebug() << "Set Speed is same fromsetSpeed";
+    //     return;
+    // }
     m_speed = newSpeed - 40;
+    qDebug() << "new Speed is :" << m_speed ;
     emit speedChanged();
 }
 
@@ -293,9 +295,12 @@ int DBusServer::startingSpeed() const
 
 void DBusServer::setStartingSpeed(int newStartingSpeed)
 {
+
     qDebug() << "Starting speed updated to : " << newStartingSpeed;
-    if (m_startingSpeed == newStartingSpeed)
+    if (m_startingSpeed == newStartingSpeed){
+        qDebug() << "Starting Speed is same";
         return;
+    }
     m_startingSpeed = newStartingSpeed;
     emit startingSpeedChanged();
 }
@@ -321,8 +326,8 @@ int DBusServer::endingRPMRange() const
 
 void DBusServer::setEndingRPMRange(int newEndingRPMRange)
 {
-    if (m_endingRPMRange == newEndingRPMRange)
-        return;
+    // if (m_endingRPMRange == newEndingRPMRange)
+    //     return;
     m_endingRPMRange = newEndingRPMRange;
     emit endingRPMRangeChanged();
 }

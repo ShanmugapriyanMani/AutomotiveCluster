@@ -113,7 +113,7 @@ Item {
             Connections {
                 target: MyDBusServer
                 function onSpeedChanged() {
-                    speedoAnimation.duration = Math.abs(MyDBusServer.startingSpeed - MyDBusServer.speed) * 70;
+                    speedoAnimation.duration = Math.max(Math.abs(MyDBusServer.startingSpeed - MyDBusServer.speed) * 70, 500);
                     speedoNeedleId.rotation = MyDBusServer.speed;
                 }
             }
