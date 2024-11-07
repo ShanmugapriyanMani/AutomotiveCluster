@@ -1,0 +1,10 @@
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/AutomotiveCluster.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/AutomotiveCluster_qmlimportscan.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install/local.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install/strip.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/AutomotiveCluster_autogen_timestamp_deps.dir
+/home/sruthisathyan/Documents/AutomotiveCluster/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/AutomotiveCluster_autogen.dir
