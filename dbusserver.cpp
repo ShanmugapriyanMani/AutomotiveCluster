@@ -296,7 +296,7 @@ int DBusServer::startingSpeed() const
 void DBusServer::setStartingSpeed(int newStartingSpeed)
 {
 
-    qDebug() << "Starting speed updated to : " << newStartingSpeed;
+    // qDebug() << "Starting speed updated to : " << newStartingSpeed;
     if (m_startingSpeed == newStartingSpeed){
         qDebug() << "Starting Speed is same";
         return;
